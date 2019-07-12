@@ -12,6 +12,7 @@
   width: 32px;
   height: 32px;
   background: #fff;
+  border-radius: 50%;
 }
 
 .post-profile .author p {
@@ -32,4 +33,9 @@
 
 .post-content p {
   color: #4b3636;
+}
+
+.post-content img {
+  width: 100%;
+  margin: 5px 0 0 0;
 }
