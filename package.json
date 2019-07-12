@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "description": "Desafio 4 para o segundo módulo do Bootcamp Gostack",
+  "author": "Gustavo Baccan Gomes <gustavobaccang@gmail.com>",
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/plugin-proposal-class-properties": "^7.5.0",
