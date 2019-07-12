@@ -11,11 +11,11 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <div class="header-container">
+        <div className="header-container">
           <img src={logo} alt="Facebook" />
           <span>
             Meu Perfil
-            <i class="material-icons">account_circle</i>
+            <i className="material-icons">account_circle</i>
           </span>
         </div>
       </header>
