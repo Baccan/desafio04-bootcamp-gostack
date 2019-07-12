@@ -2,8 +2,9 @@ import React, { Component } from "react";
 
 import "./PostItem.css";
 
+import Comment from "../Comment/Comment";
+
 import keramon from "../../assets/images/keramon.jpg";
-import kuramon from "../../assets/images/Kuramon.png";
 
 class PostItem extends Component {
   render() {
@@ -19,18 +20,7 @@ class PostItem extends Component {
         <div className="post-content">
           <p>Estou procurando meu programador, não interfira!</p>
         </div>
-        <div className="post-comments">
-          <img src={kuramon} alt="Profile Avatar" width="28px" height="28px" />
-          <div className="comment-content">
-            <p>
-              <span>Kuramon </span>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
-              molestias perferendis alias odit, doloribus dolorum repellat
-              dignissimos dolor ipsam voluptatum repellendus et magnam,
-              cupiditate id fugit dolorem explicabo quisquam odio.
-            </p>
-          </div>
-        </div>
+        <Comment />
       </>
     );
   }

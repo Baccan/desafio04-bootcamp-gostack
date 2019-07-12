@@ -33,26 +33,3 @@
 .post-content p {
   color: #4b3636;
 }
-
-.post-comments {
-  margin: 15px 0 0 0;
-
-  display: flex;
-}
-
-.post-comments img {
-  width: 28px;
-  height: 28px;
-}
-
-.post-comments .comment-content {
-  color: #3e3e3e;
-  margin: 0 0 0 10px;
-  padding: 20px;
-  background: #eeeeee;
-  border-radius: 20px;
-}
-
-.post-comments .comment-content span {
-  font-weight: bold;
-}
